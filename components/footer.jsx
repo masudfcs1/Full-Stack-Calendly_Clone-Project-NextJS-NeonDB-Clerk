@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='container mx-auto px-4'>
+    <div className=''>
         <footer className="bg-blue-50">
   <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
     <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
