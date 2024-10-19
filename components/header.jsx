@@ -1,7 +1,8 @@
-import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
+import { SignedIn, SignedOut, SignInButton } from '@clerk/nextjs'
 import { PenBox } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from './ui/button'
+import UserMenu from './userMenu'
 
 const Header = () => {
   return (
@@ -25,7 +26,7 @@ const Header = () => {
           </SignedOut>
 
           <SignedIn>
-            <UserButton />
+            <UserMenu />
           </SignedIn>
 
         </div>
