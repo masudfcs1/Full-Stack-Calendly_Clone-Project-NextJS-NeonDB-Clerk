@@ -1,5 +1,6 @@
+'use client'
 import { UserButton } from '@clerk/nextjs'
-import React from 'react'
+import { MenuIcon } from 'lucide-react'
 
 const UserMenu = () => {
   return (
@@ -7,7 +8,17 @@ const UserMenu = () => {
         elements:{
             avatarBox: "w-10 h-10"
         }
-    }}>userMenu</UserButton>
+    }}>
+
+      <UserButton.MenuItems>
+        <UserButton.Link
+        label='My Events'
+        labelIcon={<MenuIcon size={18}/> }
+        href='/events'
+        />
+        <UserButton.Action label='manageAccount' />
+      </UserButton.MenuItems>
+    </UserButton>
   )
 }
 
