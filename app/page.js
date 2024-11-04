@@ -1,3 +1,4 @@
+import HowItworks from "@/components/howItworks/howItworks";
 import KeyFeatures from "@/components/keyFeatures/keyFeatures";
 import LandingPage from "@/components/landingPage/landingPage";
 import WhatPepoleSay from "@/components/whatPepoleSay/whatPepoleSay";
@@ -46,6 +47,7 @@ export default function Home() {
         <LandingPage/>
         <KeyFeatures features={features}/>
         <WhatPepoleSay howItWorks={howItWorks} />
+        <HowItworks howItWorks={howItWorks} />
       </div>
     </>
   );

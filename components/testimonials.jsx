@@ -43,12 +43,12 @@ const testimonials = [
 const TestimonialsCarousel = () => {
     return (
 
-        <Carousel className="w-full mx-auto" 
-        plugins={[
-            Autoplay({
-                delay: 5000,
-            }),
-        ]}>
+        <Carousel className="w-full mx-auto"
+            plugins={[
+                Autoplay({
+                    delay: 5000,
+                }),
+            ]}>
             <CarouselContent>
                 {testimonials.map((testimonial, index) => (
                     <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
