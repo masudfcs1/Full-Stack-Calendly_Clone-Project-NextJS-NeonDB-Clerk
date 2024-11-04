@@ -24,6 +24,8 @@ const LandingPage = () => {
                             width={800}
                             height={900}
                             alt='landing page image'
+                            objectFit='container'
+                            // layout='fill'
                         />
                     </div>
                 </div>
