@@ -1,6 +1,7 @@
 import HowItworks from "@/components/howItworks/howItworks";
 import KeyFeatures from "@/components/keyFeatures/keyFeatures";
 import LandingPage from "@/components/landingPage/landingPage";
+import PricingPlan from "@/components/pricingPlan/pricingPlan";
 import WhatPepoleSay from "@/components/whatPepoleSay/whatPepoleSay";
 import { Calendar, Clock, LinkIcon } from "lucide-react";
 
@@ -48,6 +49,7 @@ export default function Home() {
         <KeyFeatures features={features}/>
         <WhatPepoleSay howItWorks={howItWorks} />
         <HowItworks howItWorks={howItWorks} />
+        <PricingPlan/>
       </div>
     </>
   );
