@@ -1,5 +1,6 @@
 import KeyFeatures from "@/components/keyFeatures/keyFeatures";
 import LandingPage from "@/components/landingPage/landingPage";
+import WhatPepoleSay from "@/components/whatPepoleSay/whatPepoleSay";
 import { Calendar, Clock, LinkIcon } from "lucide-react";
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
       <div>
         <LandingPage/>
         <KeyFeatures features={features}/>
+        <WhatPepoleSay howItWorks={howItWorks} />
       </div>
     </>
   );
