@@ -6,7 +6,7 @@ import UserMenu from './userMenu'
 
 const Header = () => {
   return (
-    <>
+    <div className='container mx-auto px-4'>
       <div className='flex justify-between px-2 py-4 '>
         <Link href='/'>
           <svg id="logo-88" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ const Header = () => {
 
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
