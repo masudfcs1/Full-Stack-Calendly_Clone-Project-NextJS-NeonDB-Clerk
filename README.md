@@ -14,7 +14,8 @@ pnpm dev
 bun dev
 ```
 
-![image](https://github.com/user-attachments/assets/cd84618b-4a2b-4a50-bd92-022e51a4bbc3)![image](https://github.com/user-attachments/assets/b343c648-41a4-410c-baec-bba0cc988067)
+![image](https://github.com/user-attachments/assets/cd84618b-4a2b-4a50-bd92-022e51a4bbc3)
+![image](https://github.com/user-attachments/assets/b343c648-41a4-410c-baec-bba0cc988067)
 
 
 ## Deploy on Vercel
