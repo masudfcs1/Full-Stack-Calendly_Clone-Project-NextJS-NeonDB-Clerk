@@ -13,7 +13,7 @@ pnpm dev
 # or
 bun dev
 ```
-DataBase Design- (https://app.eraser.io/workspace/mudeea6KgMUmHMVuyFqS)
+## [DataBase Design](https://app.eraser.io/workspace/mudeea6KgMUmHMVuyFqS) - (https://app.eraser.io/workspace/mudeea6KgMUmHMVuyFqS)
 
 ![image](https://github.com/user-attachments/assets/cd84618b-4a2b-4a50-bd92-022e51a4bbc3)
 ![image](https://github.com/user-attachments/assets/b343c648-41a4-410c-baec-bba0cc988067)
