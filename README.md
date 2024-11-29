@@ -1,5 +1,4 @@
 
-## Getting Started
 # DataBase Design [Eraser Click](https://app.eraser.io/workspace/mudeea6KgMUmHMVuyFqS)
 
 First, run the development server:
